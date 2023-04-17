@@ -1,0 +1,19 @@
+{
+  "name": "next-v3-demo",
+  "private": true,
+  "scripts": {
+    "prepare": "lerna bootstrap && husky install",
+    "build": "lerna run build",
+    "build:gh": "node scripts/build-gh.mjs"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "husky": "^8.0.3",
+    "lerna": "^6.5.1",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.6"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

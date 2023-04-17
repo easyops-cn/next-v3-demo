@@ -1,0 +1,29 @@
+{
+  "name": "render-only",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "NODE_ENV=development webpack serve",
+    "build": "NODE_ENV=production webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/runtime": "^7.21.0",
+    "@next-core/webpack": "^0.1.0",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  },
+  "dependencies": {
+    "@next-bricks/basic": "^0.3.2",
+    "@next-bricks/containers": "^0.3.1",
+    "@next-bricks/icons": "^0.1.2",
+    "@next-bricks/shoelace": "^0.2.2",
+    "@next-core/runtime": "^1.4.1"
+  }
+}

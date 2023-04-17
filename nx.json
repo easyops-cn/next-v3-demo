@@ -1,0 +1,26 @@
+{
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build"],
+        "cacheDirectory": ".cache",
+        "useDaemonProcess": false
+      }
+    }
+  },
+  "namedInputs": {
+    "default": ["{projectRoot}/**/*"],
+    "prod": ["!{projectRoot}/**/*.spec.*"],
+    "global": [
+      "{workspaceRoot}/package.json",
+      "{workspaceRoot}/yarn.lock"
+    ]
+  },
+  "targetDefaults": {
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["prod", "^prod", "global"]
+    }
+  }
+}
