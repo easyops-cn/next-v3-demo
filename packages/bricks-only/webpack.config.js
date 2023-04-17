@@ -37,7 +37,7 @@ module.exports = {
   devtool: false,
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Bricks Only - Brick Next V3'
+      template: path.join(packageDir, "index.ejs"),
     }),
     new BricksPlugin({
       brickPackages: [

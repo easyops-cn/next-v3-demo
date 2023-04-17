@@ -1,10 +1,8 @@
 import { unstable_createRoot } from '@next-core/runtime';
 import './style.css';
 
-const div = document.createElement('div');
-document.body.append(div);
-
-const root = unstable_createRoot(div);
+const container = document.querySelector('#app');
+const root = unstable_createRoot(container);
 
 root.render([
   {
