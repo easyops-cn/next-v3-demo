@@ -42,8 +42,8 @@ module.exports = {
     new RuntimePlugin({
       brickPackages: [
         '@next-bricks/icons',
-        '@next-bricks/containers',
         '@next-bricks/basic',
+        '@next-bricks/containers',
         '@next-bricks/shoelace',
       ],
     }),

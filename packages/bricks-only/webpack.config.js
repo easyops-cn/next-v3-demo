@@ -42,8 +42,8 @@ module.exports = {
     new BricksPlugin({
       brickPackages: [
         '@next-bricks/icons',
-        '@next-bricks/containers',
         '@next-bricks/basic',
+        '@next-bricks/containers',
         '@next-bricks/shoelace',
       ],
     }),

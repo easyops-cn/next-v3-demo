@@ -2,24 +2,31 @@ import { add, loadBricks } from '@next-core/loader/standalone';
 import icons from '@next-bricks/icons/dist/bricks.json';
 import basic from '@next-bricks/basic/dist/bricks.json';
 import containers from '@next-bricks/containers/dist/bricks.json';
-import shoelace from '@next-bricks/shoelace/dist/bricks.json';
+import "./style.css";
 
-add([icons, basic, containers, shoelace]);
+// This adds the manifest for the brick packages.
+add([icons, basic, containers]);
 
-loadBricks(['icons.general-icon', 'basic.general-button', 'sl-alert']).then(
+const app = document.querySelector('#app');
+
+loadBricks(['icons.general-icon', 'basic.general-button', 'containers.general-card']).then(
   () => {
-    const app = document.querySelector('#app');
-
     app.innerHTML = `
-    <basic.general-button>
-      Click Me
-    </basic.general-button>
-    <icons.general-icon lib="antd" icon="branches"></icons.general-icon>
-    <sl-alert open closable>This is an alert!</sl-alert>
+      <containers.general-card card-title="Hello">
+        <basic.general-button>
+          <basic.general-icon lib="antd" icon="branches"></basic.general-icon>
+          Click Me
+        </basic.general-button>
+      </containers.general-card>
     `;
+
+    app.querySelector("basic\\.general-button").addEventListener("click", () => {
+      alert("Well done!");
+    });
   },
   (e) => {
     // eslint-disable-next-line no-console
     console.error('load bricks failed:', e);
+    app.textContent = `Failed to load bricks: ${e}`;
   }
 );
