@@ -44,7 +44,6 @@ module.exports = {
         '@next-bricks/icons',
         '@next-bricks/basic',
         '@next-bricks/containers',
-        '@next-bricks/shoelace',
       ],
     }),
   ],
