@@ -2,5 +2,28 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
-  ]
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "^@next-core/"
+      ],
+      "groupName": "next-core packages"
+    },
+    {
+      "matchPackageNames": ["history", "js-yaml", "node", "react", "react-dom"],
+      "matchPackagePatterns": ["^@types/"],
+      "matchUpdateTypes": ["major"],
+      "enabled": false
+    },
+    {
+      "depTypeList": ["engines"],
+      "enabled": false
+    },
+    {
+      "groupName": "type packages",
+      "matchPackagePatterns": ["^@types/"]
+    }
+  ],
+  "postUpdateOptions": ["yarnDedupeHighest"]
 }
