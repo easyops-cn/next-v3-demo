@@ -1,7 +1,8 @@
 # Demo for Brick Next v3
 
-- [Bricks only](#bricks-only): [demo](https://easyops-cn.github.io/next-v3-demo/bricks-only/), [source](packages/bricks-only).
-- [Render only](#render-only): [demo](https://easyops-cn.github.io/next-v3-demo/render-only/), [source](packages/render-only).
+- [Bricks only](#bricks-only): [live demo](https://easyops-cn.github.io/next-v3-demo/bricks-only/), [source code](packages/bricks-only).
+- [Render only](#render-only): [live demo](https://easyops-cn.github.io/next-v3-demo/render-only/), [source code](packages/render-only).
+- [Weather app](#weather-app): [live demo](https://easyops-cn.github.io/next-v3-demo/weather-app/), [source code](packages/weather-app).
 
 ## Bricks Only
 
@@ -129,3 +130,9 @@ root.render({
   ],
 });
 ```
+
+## Weather App
+
+See the [live demo](https://easyops-cn.github.io/next-v3-demo/weather-app/), and its [source code](packages/weather-app).
+
+This demo uses YAML to describe the app, which is more readable for human, than json or js.
