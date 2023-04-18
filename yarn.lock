@@ -1281,10 +1281,10 @@
     "@next-core/types" "^1.1.0"
     lodash "^4.17.21"
 
-"@next-core/webpack@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@next-core/webpack/-/webpack-0.1.0.tgz#18cbbd824e81a6c8bbe6e14ee22512f1c7901a59"
-  integrity sha512-88hquNmOmsqUmemU4mzPUAkI6aJ1G8lQ0GCCNtz0bFW1uVqxocXoQRhdOzD0txDtIuVrvTkCbV1+AASSswqMOA==
+"@next-core/webpack@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@next-core/webpack/-/webpack-0.2.0.tgz#ebc12245312e79a1172ad6f1982ec37f1f3132d5"
+  integrity sha512-oXPbFKCyenQwYNHmrf9Kds5PpGY+CLCxwClkvECmElVhF/1RVto70XA+ZSQBRHd0dOv48304tf0v/Uhyu6ljrw==
   dependencies:
     copy-webpack-plugin "^11.0.0"
 
