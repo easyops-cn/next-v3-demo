@@ -6,10 +6,6 @@ dataSource:
 - London
 children:
 - brick: sl-card
-  properties:
-    style:
-      width: 220px
-      margin: 10px
   children:
   - brick: div
     slot: header
