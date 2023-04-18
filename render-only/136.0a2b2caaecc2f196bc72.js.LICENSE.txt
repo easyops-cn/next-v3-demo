@@ -1,0 +1,19 @@
+/**! @contract easyops.api.api_gateway.auth.CheckLogin@1.1.4 */
+
+/**! @contract easyops.api.api_gateway.bootstrap_standalone.RuntimeStandalone@1.0.1 */
+
+/**! @contract easyops.api.api_gateway.bootstrap_v2.BootstrapV2@1.1.0 */
+
+/**! @contract easyops.api.api_gateway.bootstrap_v2.GetAppStoryboardV2@1.0.0 */
+
+/**! @contract easyops.api.api_gateway.contract.SearchSingleContract@1.0.0 */
+
+/**! @contract easyops.api.cmdb.instance.GetDetail@1.0.0 */
+
+/**! @contract easyops.api.cmdb.instance.PostSearch@1.1.0 */
+
+/**! @contract easyops.api.micro_app.permission.ValidatePermissions@1.0.0 */
+
+/**! @contract easyops.api.micro_app_standalone.runtime.RuntimeMicroAppStandalone@1.0.1 */
+
+/**! @contract easyops.api.micro_app_standalone.runtime.SearchMicroAppStandalone@1.0.1 */
