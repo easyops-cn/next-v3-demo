@@ -1173,19 +1173,19 @@
   integrity sha512-Vhxj/09m1bHZ41MhTMmpcEPMXDLJP7C7VN8G4H1Xe52Reoa1MfiJHEeTwhDErSL0YMJYPraPoU+XY9Ig01kLBw==
 
 "@next-bricks/containers@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@next-bricks/containers/-/containers-0.3.1.tgz#c1b24e3100c57aea1cda68b1a9b0a33754756d13"
-  integrity sha512-nNpXOmjLwEAcnbGzosrq8GC6JB351y4AjvHmrVXcigF3XPaBJiSPoyHwYHgAzYc1c7+OkKUJYmdg58zxWUqm9g==
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@next-bricks/containers/-/containers-0.3.3.tgz#7f42409b25548486fe27635cb69568931be56f3e"
+  integrity sha512-eQANlqtSd6tkaB3rduKopTtOXvoiLxn/d3rqSVS9Q6Jexxdzg9+bf6fwBUuxbHIQNdL3Tln7Wt+D8357Yvibhw==
 
 "@next-bricks/icons@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@next-bricks/icons/-/icons-0.1.2.tgz#b42a0c93222622206472ebb44feae5bde382db72"
-  integrity sha512-GCcK7DhktbYO5Mnyr1/FtVwNmYcoTDtt5nwOqDukk/erlrUTAkzor/gHW6PqXbkW7LHqk0hw4PN9rSgfHNwHkA==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@next-bricks/icons/-/icons-0.1.4.tgz#dd44942fe9c0304a0fcdb145ffb1d14f653813c3"
+  integrity sha512-1fJt+0uz6XqTymIonUNT147ivjFPzWTnS6eCn4i4DJ24y8tZxDeWrRsC1uCQBlU8eZRcNT1Fj7VQhuom/r+/kA==
 
 "@next-bricks/shoelace@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@next-bricks/shoelace/-/shoelace-0.2.2.tgz#0c000ef528b08225c95a5e0aa0fd101f5f47b177"
-  integrity sha512-5V0s5As25OWlS3ku6iALLe9xVPfLEGytJXHTs6NtWBvb5hTVl5Z+DYmSPnL7v5mSwGu3slo0/LbiWRaHEjC0BQ==
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@next-bricks/shoelace/-/shoelace-0.2.4.tgz#6e3e40848da100b6e8aa06916aa087a429322620"
+  integrity sha512-wa6jbjg1oWQO04Eg2jgBd8sXs8RKRwBKoLog/aFctliWU3wySPHhVM1Zzu9DraGRWJaJm5Ip7O3FB+yp8p/4Hw==
 
 "@next-core/cook@^2.0.4":
   version "2.0.4"
