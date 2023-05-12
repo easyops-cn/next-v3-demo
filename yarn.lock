@@ -1178,19 +1178,19 @@
   integrity sha512-nNpXOmjLwEAcnbGzosrq8GC6JB351y4AjvHmrVXcigF3XPaBJiSPoyHwYHgAzYc1c7+OkKUJYmdg58zxWUqm9g==
 
 "@next-bricks/icons@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@next-bricks/icons/-/icons-0.1.2.tgz#b42a0c93222622206472ebb44feae5bde382db72"
-  integrity sha512-GCcK7DhktbYO5Mnyr1/FtVwNmYcoTDtt5nwOqDukk/erlrUTAkzor/gHW6PqXbkW7LHqk0hw4PN9rSgfHNwHkA==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@next-bricks/icons/-/icons-0.1.4.tgz#dd44942fe9c0304a0fcdb145ffb1d14f653813c3"
+  integrity sha512-1fJt+0uz6XqTymIonUNT147ivjFPzWTnS6eCn4i4DJ24y8tZxDeWrRsC1uCQBlU8eZRcNT1Fj7VQhuom/r+/kA==
 
 "@next-bricks/shoelace@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@next-bricks/shoelace/-/shoelace-0.2.2.tgz#0c000ef528b08225c95a5e0aa0fd101f5f47b177"
-  integrity sha512-5V0s5As25OWlS3ku6iALLe9xVPfLEGytJXHTs6NtWBvb5hTVl5Z+DYmSPnL7v5mSwGu3slo0/LbiWRaHEjC0BQ==
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@next-bricks/shoelace/-/shoelace-0.2.4.tgz#6e3e40848da100b6e8aa06916aa087a429322620"
+  integrity sha512-wa6jbjg1oWQO04Eg2jgBd8sXs8RKRwBKoLog/aFctliWU3wySPHhVM1Zzu9DraGRWJaJm5Ip7O3FB+yp8p/4Hw==
 
 "@next-core/cook@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@next-core/cook/-/cook-2.0.4.tgz#d28b13d31fb87d03e4199a8678c0aea77eab0a18"
-  integrity sha512-1LtK0aWaRTSGG64JUcItaiAUsyFjZXGryjI/ToEVFkMXBxkYYFPG+SSQF0HHno+/zW9PGOVLoW2+jYXnRMtbtQ==
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@next-core/cook/-/cook-2.1.1.tgz#2fc8fdf486e51417c0560af8b01b8f20675dfea5"
+  integrity sha512-CQshS5/TmdmdE2tR4EzLwX3Vx6IijdGs/1QmSTggSt2pkTDT7esv75iS2YsIjr7PxbZX3WPdcxifEoZ7Gbkpgw==
   dependencies:
     "@babel/parser" "^7.21.4"
 
